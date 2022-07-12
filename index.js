@@ -9,6 +9,8 @@ app.get("/", (req, res) => {
     res.send("Hello!!")
 });
 
+app.put("/" ()=>{});
+
 app.listen(process.env.PORT || 5000, () => {
     console.log(`app is listing the port 5000`)
 })
