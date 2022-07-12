@@ -9,7 +9,10 @@ app.get("/", (req, res) => {
     res.send("Hello!!")
 });
 
-app.put("/" ()=>{});
+app.put("/",(request, response)=>{
+	response.status(200).json({name:"Raquib"});
+	
+});
 
 app.listen(process.env.PORT || 5000, () => {
     console.log(`app is listing the port 5000`)
