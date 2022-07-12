@@ -8,14 +8,9 @@ app.get("/", (req, res) => {
     res.send("Hello!!")
 });
 
-<<<<<<< HEAD
-app.put("/", (req, res) => {
-    res.send("Hello!!")
-=======
 app.put("/",(request, response)=>{
 	response.status(200).json({name:"Raquib"});
 	
->>>>>>> d8238b02ff4b21cec2d25128685a731f60caa44a
 });
 
 app.listen(process.env.PORT || 5000, () => {
