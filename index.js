@@ -8,9 +8,8 @@ app.get("/", (req, res) => {
     res.send("Hello!!")
 });
 
-app.put("/",(request, response)=>{
-	response.status(200).json({name:"Raquib"});
-	
+app.put("/", (request, response) => {
+    response.status(200).json({ name: "Raquib" });
 });
 
 app.listen(process.env.PORT || 5000, () => {
